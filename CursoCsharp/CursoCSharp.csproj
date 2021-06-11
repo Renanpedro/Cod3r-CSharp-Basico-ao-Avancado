@@ -1,0 +1,63 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Anotações\Anotações.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Anotações.tt</DependentUpon>
+    </None>
+    <None Include="Orientação a objeto.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Orientação a objeto.tt</DependentUpon>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Encapsulamento\Encapsulamento.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Anotações\Anotações.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Anotações.cs</LastGenOutput>
+    </None>
+    <None Update="Anotações\Orientação a objeto Explicação.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Orientação a objeto Explicação.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Anotações.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Anotações.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Anotações\Anotações.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Anotações.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Anotações\Orientação a objeto Explicação.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Orientação a objeto Explicação.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Orientação a objeto.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Orientação a objeto.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

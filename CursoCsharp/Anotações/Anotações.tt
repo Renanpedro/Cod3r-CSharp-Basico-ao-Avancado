@@ -1,0 +1,31 @@
+﻿CLR tradutor do codigo
+
+Classe e Objeto
+Variaveis dentro das classes começa com letra maisucula
+variaveis dentro dos metodos começa com minusuclo
+
+Simbolos
+(&& E) - Quandos os dois forem verdadeiros 
+(|| OU) -Quando um dos dois forem verdadeiros 
+(^ OU Exclusivo) Só se em dos dois forem Verdadeiro
+
+(! numa variavél boolena) - Negação logica inverte o resultado da var comprou sorverte caso esteja true irá passar para false e caso esteja false ira 
+passar para true
+
+Static
+Signifac que o metodo nao pertence ao objeto e sim a classe, usando o static na classe não precisa instanciar a classe caso outra classe queira
+usar os seus metodos.
+
+PARAM serve para receber parametros variavéis. (Dados aleatórios)
+
+GET ler informações
+
+SET inserir informações setar dados
+
+Math.abs
+cilindrada = math.abs(cilindrada) =  tranforma o valor em absoluto, transforma o valor para positivo caso seja negativo.
+
+UNIT-
+variavel UINT - so recebe valor positivo, não é possivel colcoar valoresd negativos nesta variaevl
+
+ENUM - Com enum é possível setar valores já definidos apenas para serem apresentados, não é possivel realizar a alteração

@@ -1,0 +1,9 @@
+C:\Users\renan\source\repos\Encapsulamento\bin\Debug\netcoreapp3.1\Encapsulamento.deps.json
+C:\Users\renan\source\repos\Encapsulamento\bin\Debug\netcoreapp3.1\Encapsulamento.dll
+C:\Users\renan\source\repos\Encapsulamento\bin\Debug\netcoreapp3.1\Encapsulamento.pdb
+C:\Users\renan\source\repos\Encapsulamento\obj\Debug\netcoreapp3.1\Encapsulamento.csprojAssemblyReference.cache
+C:\Users\renan\source\repos\Encapsulamento\obj\Debug\netcoreapp3.1\Encapsulamento.AssemblyInfoInputs.cache
+C:\Users\renan\source\repos\Encapsulamento\obj\Debug\netcoreapp3.1\Encapsulamento.AssemblyInfo.cs
+C:\Users\renan\source\repos\Encapsulamento\obj\Debug\netcoreapp3.1\Encapsulamento.csproj.CoreCompileInputs.cache
+C:\Users\renan\source\repos\Encapsulamento\obj\Debug\netcoreapp3.1\Encapsulamento.dll
+C:\Users\renan\source\repos\Encapsulamento\obj\Debug\netcoreapp3.1\Encapsulamento.pdb
